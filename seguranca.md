@@ -1,10 +1,8 @@
 ---
-marp: false
+marp: true
 theme: default
-class: 
-  - lead
-backgroundImage: url('/images/if_back1.png')
-mermaid: true
+class: lead
+backgroundImage: url('./images/if_back1.png')
 paginate: true
 ---
 
@@ -42,21 +40,38 @@ paginate: true
 
 ---
 
-
-3. **Documentação:**
 # XSS Stored - Parte 1
-![background](/images/1_xss_1.png)
+
+![](./images/1_xss_1.png)
+
 ---
 
 # XSS Stored - Parte 2
-![background](/images/2_xss.png) 
+
+![](./images/2_xss.png)
+
+---
+
+
+# SQL injection
+
+![](./images/sql_injection.png)
+
+
+---
+
+# CSRF
+
+![](./images/csrf.png)
+
+
 ---
 
 # Estratégias de Mitigação
 
 - **SQL Injection:** Uso de consultas parametrizadas e validação de entradas.
 
-- **XSS:** Sanitização de dados e implementação de Content Security Policy (CSP).
+- **XSS:** Sanitização de dados.
 - **CSRF:** Utilização de tokens anti-CSRF em formulários.
 
 ---
@@ -71,6 +86,5 @@ paginate: true
 
 # Obrigado! :kissing_heart:
 
-Dúvidas? Entre em contato:  
 📧 joao.crescencio@escolar.ifrn.edu.br  
 📧 rickson.rocha@escolar.ifrn.edu.br  
